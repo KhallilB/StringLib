@@ -4,11 +4,13 @@
   "description": "A simple string library that handles casing",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "author": "KhallilB",
   "license": "ISC",
   "devDependencies": {
+    "coveralls": "^3.0.6",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2",
