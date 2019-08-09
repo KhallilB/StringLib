@@ -1,4 +1,4 @@
-require('../index');
+require('../src/index');
 
 test('capitalization of word', () => {
   expect('nugget'.capitalize()).toBe('Nugget');
